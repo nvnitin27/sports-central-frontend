@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, Categories, PostWidget, Header } from '../components'
+import { PostCard, Categories, PostWidget } from '../components'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'

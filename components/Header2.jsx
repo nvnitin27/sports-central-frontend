@@ -51,7 +51,7 @@ const Header2 = () => {
           <li className='p-4'>
             <Link href='/Donate'>Donate</Link>
           </li>
-          <Link href='/login'><button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button></Link>
+  {/*<Link href='/login'><button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button></Link>*/}
         </ul>
 
         {/* Mobile Button */}
@@ -83,7 +83,7 @@ const Header2 = () => {
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/Contactus'>Contact Us</Link>
             </li>
-            <Link href='/login'><button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button></Link>
+        {/*<Link href='/login'><button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Login</button></Link>*/}
           </ul>
         </div>
       </div>
