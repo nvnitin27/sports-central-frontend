@@ -17,7 +17,7 @@ const Landingone = () => {
                                 key={index} 
                                 className="bg-cyan-900 p-4 rounded hover:bg-cyan-800 relative"
                                 title={``}>
-                                <h2 className="mt-4 mb-2 text-xl font-bold text-teal-500">
+                                <h2 className="mt-4 mb-2 text-xl font-bold text-slate-50">
                                     {data.sport}
                                 </h2>
                                 <h3 className="font-bold text-2xl text-white">

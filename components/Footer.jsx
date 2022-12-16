@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Link from 'next/link';
 
 const Footer = () => {
 	return (
@@ -24,16 +25,16 @@ const Footer = () => {
 					<ul>
 						<p className="text-gray-800 font-bold text-2xl pb-4">Pages</p>
 						<li className="text-black text-md pb-2 font-semibol cursor-pointer">
-							Sports Blog
+							<Link href='/'>Sports Blog</Link> 
 						</li>
 						<li className="text-black text-md pb-2 font-semibol cursor-pointer">
-							Aboutus 
+							<Link href='/Aboutus'>About Us</Link>  
 						</li>
                         <li className="text-black text-md pb-2 font-semibol cursor-pointer">
-							Contactus 
+							<Link href='/Contactus'>Contact Us</Link>  
 						</li>
                         <li className="text-black text-md pb-2 font-semibol cursor-pointer">
-							Home Page 
+							<Link href='/Landingpage'>Home Page</Link>  
 						</li>
 						
 					</ul>
@@ -69,12 +70,12 @@ const Footer = () => {
 							Terms and conditions
 						</li>
 						<li className="text-black text-md pb-2 font-semibol cursor-pointer">
-							Go to top of the Page
+							<Link href='#'>Go to top of the Page</Link>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div className="bg-sky-400	 flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
+			<div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
 				<h1 className=" text-gray-800 font-semibold">
 					© 2022 All rights reserved | {" "}
 					<span className="hover:text-blue-600 font-semibold cursor-pointer">

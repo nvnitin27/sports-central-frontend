@@ -6,7 +6,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const Landingtwo = () => {
     return (
         <div className=" landingtwo max-w-6xl m-auto p-4 pt-8 px-2 sm:pt-20 " id="projects">
-            <h1 className="text-4xl text-teal-500 justify-center items-center text-center text-cyan-900 font-bold sm:text-5xl">TRENDING PLAYER</h1>
+            <h1 className="text-4xl justify-center items-center text-center text-cyan-900 font-bold sm:text-5xl">TRENDING PLAYER</h1>
             <p className="text-sm text-teal-500 font-semibold mt-4 mb-8 leading-6">
                 
             </p>
@@ -23,7 +23,7 @@ const Landingtwo = () => {
                                 </div>
                                 <div className="flex flex-col justify-center items-start w-55 pb-0">
                                     <h2 className="text-2xl text-white font-bold my-5 mb-2">{data.player}</h2>
-                                    <b className="text-teal-500 mb-2">{data.sport}</b>
+                                    <b className="text-slate-50 mb-2">{data.sport}</b>
                                     <p className="text-gray-300 text-sm leading-6 m-0">{data.description}</p>
                                     <button className="py-2 px-4 bg-white mt-4 text-black ease-in-out duration-150 border-2 border-white rounded-md hover:bg-gray-900 hover:border-gray-900 hover:text-white" style={{width: "100%"}} title="Visit website">
                                         <a href="" className="flex justify-between items-center gap-1 font-semibold text-md p-0 m-0">
