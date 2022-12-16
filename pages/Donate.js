@@ -37,7 +37,7 @@ export default function DonateUs({ slug }) {
                                 <div className="w-full lg:w-6/12  pt-8 ">
                                     <div className="bg-[#9acaeb] relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 px-8">
                                         <div className="flex-auto p-5 lg:p-10">
-                                            <h4 className="text-2xl font-semibold flex flex-wrap justify-center">
+                                            <h4 className="text-2xl font-semibold flex flex-wrap justify-center text-black">
                                                 Fuel the Graduation Effect
                                             </h4>
                                             <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
