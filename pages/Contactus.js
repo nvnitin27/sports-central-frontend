@@ -31,14 +31,13 @@ export default function Contactus({slug}){
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
-                        for="fullname"
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2 text-black"
                         htmlFor="full-name"
                       >
                         Full Name
                       </label>
                       <input
-                        id='fullname'
+                        id='full-name'
                         type="text"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         placeholder="Full Name"
@@ -63,14 +62,13 @@ export default function Contactus({slug}){
 
                     <div className="relative w-full mb-3">
                       <label
-                        for='msg'
                         className="block uppercase text-black text-xs font-bold mb-2"
                         htmlFor="message"
                       >
                         Message
                       </label>
                       <textarea
-                        id='msg'
+                        id='message'
                         rows="4"
                         cols="80"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
